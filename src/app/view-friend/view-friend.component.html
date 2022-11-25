@@ -1,0 +1,20 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Friend name</th>
+        <th scope="col">Describe your friend</th>
+        <th scope="col">Friend nickname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of friend">
+        
+        <td>{{i.name}}</td>
+        <td>{{i.friendName}}</td>
+        <td>{{i.DescribeYourFriend}}</td>
+        <td>{{i.friendNickName}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
