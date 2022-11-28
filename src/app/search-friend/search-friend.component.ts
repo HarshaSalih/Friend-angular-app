@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class SearchFriendComponent {
 
+  name=""
+
+  readValues=()=>
+  {
+    let data:any={"name":this.name}
+    console.log(data)
+  }
+
 }
