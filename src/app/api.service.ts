@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class ApiService {
 
   constructor(private http:HttpClient) {}
-  fetchCourses=()=>
+  fetchFriends=()=>
   {
     return this.http.get("https://dummyapifriends.herokuapp.com/view")
   } 
