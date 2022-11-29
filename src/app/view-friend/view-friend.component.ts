@@ -10,7 +10,7 @@ export class ViewFriendComponent {
 
   constructor(private api:ApiService)
   {
-    api.fetchCourses().subscribe(
+    api.fetchFriends().subscribe(
       (response)=>{
         this.friend=response;
       }
